@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-05-21T14:49:41.350512Z",
+  "servers": {
+    "psdd": {
+      "knowledge_bases": {
+        "_default": {
+          "backend_type": "dolt",
+          "branch": "main",
+          "commit": "1k37hgk332ruf56s65s1qvh4qs0kudt9",
+          "collections": [],
+          "last_synced_at": "2026-05-21T14:49:41.350454Z",
+          "remote_empty": false,
+          "backend_params": {}
+        }
+      }
+    }
+  }
+}
