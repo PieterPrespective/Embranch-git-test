@@ -1,0 +1,12 @@
+[2026-05-21 09:30:01] VERSION system: dolt_init
+    Input: {"kb_type":"domain_knowledge"}
+    Session: 029a60b2
+[2026-05-21 09:30:11] VERSION system: dolt_commit
+    Input: {"message":"Initial setup"}
+    Session: 029a60b2
+[2026-05-21 09:32:50] VERSION system: manifest_set_remote
+    Input: {"remote_url":"pieter-prespective/embr-git-test-pskd"}
+    Session: 029a60b2
+[2026-05-21 09:33:05] VERSION system: dolt_push
+    Input: {}
+    Session: 029a60b2

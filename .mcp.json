@@ -1,0 +1,12 @@
+{
+    "mcpServers":  {
+                       "psdd":  {
+                                    "type":  "http",
+                                    "url":  "http://127.0.0.1:9473/embranch/v2.26.3/mcp/?workdir=Embranch%2Fdata%2FPSDD"
+                                },
+                       "pskd":  {
+                                    "type":  "http",
+                                    "url":  "http://127.0.0.1:9473/embranch/v2.26.3/mcp/?workdir=Embranch%2Fdata%2FPSKD"
+                                }
+                   }
+}

@@ -1,0 +1,11 @@
+
+
+# --- Embranch (pilot mode) ---
+# Auto-added by Install-Harness.ps1 v2.18.2
+# Runtime state only — team-shared harness files stay committed.
+
+Embranch/data/
+Embranch/harness.json.backup-*
+.claude/settings.local.json
+
+# --- End Embranch ---
