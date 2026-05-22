@@ -6,7 +6,7 @@
                               "harness_flavor":  "ClaudeCode",
                               "harness_version":  "2.18.2",
                               "daemon_version_at_install":  null,
-                              "installed_at":  "2026-05-21T14:45:28.8856842Z",
+                              "installed_at":  "2026-05-22T08:20:22.5443200Z",
                               "project_namespace":  "TEST",
                               "data_path_mode":  "embranch-data",
                               "file_count":  38,
@@ -29,7 +29,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "f531b49c0a843c0361caf595d71ac35f7606f82541d9945cee32a7d0c4a32c76",
                                                     "size_bytes":  19091,
-                                                    "installed_at":  "2026-05-21T14:45:28.4874846Z"
+                                                    "installed_at":  "2026-05-22T08:20:21.6007321Z"
                                                 },
                                                 {
                                                     "path":  ".claude/agents/prespective-knowledge-agent.md",
@@ -40,7 +40,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "2b7b324bee7fd6f2c47316f16d5ee8329abfe879d9d2c3ce5855eae7dddab1fe",
                                                     "size_bytes":  11934,
-                                                    "installed_at":  "2026-05-21T14:45:28.4929986Z"
+                                                    "installed_at":  "2026-05-22T08:20:21.6212200Z"
                                                 },
                                                 {
                                                     "path":  ".claude/agents/topic-doc-agent.md",
@@ -51,7 +51,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "d147b7df38952f5b503a3a3c3cd6548170ebcaab26e3318003c59232ac972306",
                                                     "size_bytes":  22800,
-                                                    "installed_at":  "2026-05-21T14:45:28.4975069Z"
+                                                    "installed_at":  "2026-05-22T08:20:21.6517736Z"
                                                 },
                                                 {
                                                     "path":  ".claude/commands/devdiary.md",
@@ -62,7 +62,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "e8d177a2b3263bc1b91db9e4b9f86d678d03af885fbc2465f51b446429ceaca1",
                                                     "size_bytes":  7887,
-                                                    "installed_at":  "2026-05-21T14:45:28.5005076Z"
+                                                    "installed_at":  "2026-05-22T08:20:21.6677679Z"
                                                 },
                                                 {
                                                     "path":  ".claude/commands/knowledge.md",
@@ -73,7 +73,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "7deff5b0429cf2ca4a666f74324f2a55fa2c5a191fba782505dae81186fa6dba",
                                                     "size_bytes":  5570,
-                                                    "installed_at":  "2026-05-21T14:45:28.5035302Z"
+                                                    "installed_at":  "2026-05-22T08:20:21.6847386Z"
                                                 },
                                                 {
                                                     "path":  ".claude/commands/topic-doc.md",
@@ -84,7 +84,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "88bd6c5b9ea4ea6d79d76f44b1951f338e1383a303730ff3534a493ffc957fa1",
                                                     "size_bytes":  1113,
-                                                    "installed_at":  "2026-05-21T14:45:28.5065343Z"
+                                                    "installed_at":  "2026-05-22T08:20:21.6952915Z"
                                                 },
                                                 {
                                                     "path":  ".claude/commands/extract-decisions.md",
@@ -95,7 +95,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "581b05ca6439000ca151ed7ae30b98bc56a9b422c185b5a5c130e818d95550e4",
                                                     "size_bytes":  20034,
-                                                    "installed_at":  "2026-05-21T14:45:28.5120477Z"
+                                                    "installed_at":  "2026-05-22T08:20:21.7092689Z"
                                                 },
                                                 {
                                                     "path":  ".claude/commands/embranch-first-run.md",
@@ -106,7 +106,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "e253b9c4df4ebbf97703a3be1094d6d63e689b6c0913a55475731409d8786769",
                                                     "size_bytes":  5099,
-                                                    "installed_at":  "2026-05-21T14:45:28.5145998Z"
+                                                    "installed_at":  "2026-05-22T08:20:21.7208903Z"
                                                 },
                                                 {
                                                     "path":  ".claude/hooks/validate-psdd-action.js",
@@ -117,7 +117,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "114a7a5d824104817af2fad2530f2cb5e615cd1e514c4c2532c598ea2013bc65",
                                                     "size_bytes":  5575,
-                                                    "installed_at":  "2026-05-21T14:45:28.5186339Z"
+                                                    "installed_at":  "2026-05-22T08:20:21.7448570Z"
                                                 },
                                                 {
                                                     "path":  ".claude/hooks/validate-pskd-action.js",
@@ -128,7 +128,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "ebad71f73ca4566fa754da1b4b7e0c871c83d5303cf7a5787947a966b1bb318e",
                                                     "size_bytes":  2342,
-                                                    "installed_at":  "2026-05-21T14:45:28.5221514Z"
+                                                    "installed_at":  "2026-05-22T08:20:21.7698579Z"
                                                 },
                                                 {
                                                     "path":  ".claude/hooks/log-psdd-action.js",
@@ -139,7 +139,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "23222b7d1e59d8562f67fb1cc2a61ded7be2fbe176ce127c5c14265e5a8ed335",
                                                     "size_bytes":  3126,
-                                                    "installed_at":  "2026-05-21T14:45:28.5279049Z"
+                                                    "installed_at":  "2026-05-22T08:20:21.7983752Z"
                                                 },
                                                 {
                                                     "path":  ".claude/hooks/log-pskd-action.js",
@@ -150,7 +150,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "c972f541372ea2d3426376029d7fd4763f0296cc3cae5df03ead86998e63ed75",
                                                     "size_bytes":  2976,
-                                                    "installed_at":  "2026-05-21T14:45:28.5309028Z"
+                                                    "installed_at":  "2026-05-22T08:20:21.8214087Z"
                                                 },
                                                 {
                                                     "path":  ".claude/hooks/require-diary-entry.sh",
@@ -161,7 +161,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "3e5af6a07bde373f9efa58fb7ef0d18c5d59c5dca3b7b5fcde180dcbe539d91d",
                                                     "size_bytes":  3074,
-                                                    "installed_at":  "2026-05-21T14:45:28.5339119Z"
+                                                    "installed_at":  "2026-05-22T08:20:21.8344142Z"
                                                 },
                                                 {
                                                     "path":  ".claude/hooks/post-error-reflect.sh",
@@ -172,7 +172,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "d3253cdf97c072c6609500f92c5628f870c564ce45b5d9057735e52ef6fe0579",
                                                     "size_bytes":  1394,
-                                                    "installed_at":  "2026-05-21T14:45:28.5369163Z"
+                                                    "installed_at":  "2026-05-22T08:20:21.8464415Z"
                                                 },
                                                 {
                                                     "path":  ".claude/hooks/post-commit-diary.sh",
@@ -183,7 +183,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "901c066ec639e24a18fa10876bd02bb9fb4281516bc4890ac8e191797e891537",
                                                     "size_bytes":  1227,
-                                                    "installed_at":  "2026-05-21T14:45:28.5399169Z"
+                                                    "installed_at":  "2026-05-22T08:20:21.8574070Z"
                                                 },
                                                 {
                                                     "path":  ".claude/hooks/embranch-plan-mode-guard.js",
@@ -194,7 +194,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "1b0578a836c746a5ae92e256164969d19355452a8f0c797c5ac07719b3889bb7",
                                                     "size_bytes":  3426,
-                                                    "installed_at":  "2026-05-21T14:45:28.5439512Z"
+                                                    "installed_at":  "2026-05-22T08:20:21.8828024Z"
                                                 },
                                                 {
                                                     "path":  ".claude/rules/embranch-workflow.md",
@@ -203,9 +203,9 @@
                                                     "source_version":  "2.18.2",
                                                     "tied_to_daemon":  "2.18.2",
                                                     "tied_to_kb":  null,
-                                                    "checksum_sha256":  "94e2ed19d5cfd00b66c7b3c8d047907347fa934699f37e402f7ba5edf341c004",
-                                                    "size_bytes":  9938,
-                                                    "installed_at":  "2026-05-21T14:45:28.5473568Z"
+                                                    "checksum_sha256":  "afb495d9f91ca6d7b58d619dda8d169ee22cfc398e1e8a9cc04244708d796a21",
+                                                    "size_bytes":  9959,
+                                                    "installed_at":  "2026-05-22T08:20:21.8977985Z"
                                                 },
                                                 {
                                                     "path":  ".claude/settings.local.json",
@@ -216,7 +216,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "b5e650a7b14c08fa8f60e30c54eb3b566d0d0a3074152b31d772f7a1c5346aac",
                                                     "size_bytes":  15418,
-                                                    "installed_at":  "2026-05-21T14:45:28.6938638Z"
+                                                    "installed_at":  "2026-05-22T08:20:22.0608438Z"
                                                 },
                                                 {
                                                     "path":  "Embranch/BasePrompt.md",
@@ -227,7 +227,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "3fd886eaa2e18b73fc7c7d9be99ce6629e1af4b88d103f3e27445b50c3fdc245",
                                                     "size_bytes":  12942,
-                                                    "installed_at":  "2026-05-21T14:45:28.7098607Z"
+                                                    "installed_at":  "2026-05-22T08:20:22.0898434Z"
                                                 },
                                                 {
                                                     "path":  "Embranch/BasePrompt-Template.md",
@@ -238,7 +238,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "898a0f15d1188148083fb39e81fd29d0a7c1d5836e0108dd38613bc77b3a790a",
                                                     "size_bytes":  14110,
-                                                    "installed_at":  "2026-05-21T14:45:28.7200574Z"
+                                                    "installed_at":  "2026-05-22T08:20:22.1028598Z"
                                                 },
                                                 {
                                                     "path":  "Embranch/AgentDocs/diary-writer-slim.md",
@@ -249,7 +249,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "19217971871630a284e8b38ad9d682643616d7a10c4400d2b291ead235222b5c",
                                                     "size_bytes":  2637,
-                                                    "installed_at":  "2026-05-21T14:45:28.7227672Z"
+                                                    "installed_at":  "2026-05-22T08:20:22.1138591Z"
                                                 },
                                                 {
                                                     "path":  "Embranch/AgentDocs/knowledge-offload-slim.md",
@@ -260,7 +260,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "dab19781befbf36ad268e9f4a403039b11df6e3f904d6198381905dd74cd7567",
                                                     "size_bytes":  2066,
-                                                    "installed_at":  "2026-05-21T14:45:28.7286318Z"
+                                                    "installed_at":  "2026-05-22T08:20:22.1283749Z"
                                                 },
                                                 {
                                                     "path":  "Embranch/AgentDocs/decision-extractor-slim.md",
@@ -271,7 +271,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "8dc700aa9806c890f6f9d5e6ccd135cf6d175cb7bd989921f24c6591a6fee0c1",
                                                     "size_bytes":  12418,
-                                                    "installed_at":  "2026-05-21T14:45:28.7322075Z"
+                                                    "installed_at":  "2026-05-22T08:20:22.1427923Z"
                                                 },
                                                 {
                                                     "path":  "Embranch/AgentDocs/decision-batch-extractor.md",
@@ -282,7 +282,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "ed9a05e5f84a21f3395bc8e69873935ff18cc959482243c7d18a38e9728cf217",
                                                     "size_bytes":  14657,
-                                                    "installed_at":  "2026-05-21T14:45:28.7358216Z"
+                                                    "installed_at":  "2026-05-22T08:20:22.1557720Z"
                                                 },
                                                 {
                                                     "path":  "Embranch/AgentDocs/topic-doc-agent.md",
@@ -293,7 +293,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "d147b7df38952f5b503a3a3c3cd6548170ebcaab26e3318003c59232ac972306",
                                                     "size_bytes":  22800,
-                                                    "installed_at":  "2026-05-21T14:45:28.7399931Z"
+                                                    "installed_at":  "2026-05-22T08:20:22.1858751Z"
                                                 },
                                                 {
                                                     "path":  "Embranch/FIRST-LAUNCH.md",
@@ -302,9 +302,9 @@
                                                     "source_version":  "2.18.2",
                                                     "tied_to_daemon":  "2.18.2",
                                                     "tied_to_kb":  null,
-                                                    "checksum_sha256":  "da684c08a9946777452fa14ea062413e28c26eddec30e1c1c43aca5e6e5446dd",
+                                                    "checksum_sha256":  "9a6c422573e12e13bc2a6f92b6dfb5ab2119809e7b82e2aba1d08aa26e6563ab",
                                                     "size_bytes":  1877,
-                                                    "installed_at":  "2026-05-21T14:45:28.7656645Z"
+                                                    "installed_at":  "2026-05-22T08:20:22.2211164Z"
                                                 },
                                                 {
                                                     "path":  "Embranch/Shared/assignment-formats.md",
@@ -315,7 +315,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "2391e7f4cee544577b1ec3da3bf62d21f126ec4cfe9490d25a14179d1428ed11",
                                                     "size_bytes":  5612,
-                                                    "installed_at":  "2026-05-21T14:45:28.7722251Z"
+                                                    "installed_at":  "2026-05-22T08:20:22.2360857Z"
                                                 },
                                                 {
                                                     "path":  "Embranch/Shared/chromadb-filters.md",
@@ -326,7 +326,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "b8823036bfb316d82b8a986ee0f2c9fe2b63b5468180df8d85a9aad051fcba26",
                                                     "size_bytes":  2527,
-                                                    "installed_at":  "2026-05-21T14:45:28.7764019Z"
+                                                    "installed_at":  "2026-05-22T08:20:22.2520812Z"
                                                 },
                                                 {
                                                     "path":  "Embranch/Shared/commit-rules.md",
@@ -337,7 +337,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "c03b896971265ae0d138414636213eddc2ae89204b917e61776d59ab55095662",
                                                     "size_bytes":  2057,
-                                                    "installed_at":  "2026-05-21T14:45:28.7803897Z"
+                                                    "installed_at":  "2026-05-22T08:20:22.2646697Z"
                                                 },
                                                 {
                                                     "path":  "Embranch/Shared/content-templates.md",
@@ -348,7 +348,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "6283f3d7d3d2b1fc135332437fb0f6fe7ad37190aae2d32a5812dd34153c4ade",
                                                     "size_bytes":  22214,
-                                                    "installed_at":  "2026-05-21T14:45:28.7866081Z"
+                                                    "installed_at":  "2026-05-22T08:20:22.2786599Z"
                                                 },
                                                 {
                                                     "path":  "Embranch/Shared/id-format.md",
@@ -359,7 +359,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "40a0c6c6ca4d3bad9a0540a2f545b154e1f943beba1ecabc75f867d11d376584",
                                                     "size_bytes":  2606,
-                                                    "installed_at":  "2026-05-21T14:45:28.7896114Z"
+                                                    "installed_at":  "2026-05-22T08:20:22.2896692Z"
                                                 },
                                                 {
                                                     "path":  "Embranch/Shared/metadata-schemas.md",
@@ -370,7 +370,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "385bca2ffb30413f5ced11ccc7924fe825b8ddb5f31c2ef5174f5c4ab57b8e36",
                                                     "size_bytes":  12815,
-                                                    "installed_at":  "2026-05-21T14:45:28.7953958Z"
+                                                    "installed_at":  "2026-05-22T08:20:22.3026767Z"
                                                 },
                                                 {
                                                     "path":  "Embranch/Start-Embranch-Daemon.bat",
@@ -381,7 +381,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "69036a8cc1f5c035d7975c6f069f8f1b4150f2dc912684fae49333a3078a6b12",
                                                     "size_bytes":  6230,
-                                                    "installed_at":  "2026-05-21T14:45:28.8061536Z"
+                                                    "installed_at":  "2026-05-22T08:20:22.3428253Z"
                                                 },
                                                 {
                                                     "path":  "Embranch/Stop-Embranch-Daemon.bat",
@@ -392,7 +392,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "4febcbc851e62564925da6f1001279f6049c72433be718d85f2dd5c05e5d2b7f",
                                                     "size_bytes":  5356,
-                                                    "installed_at":  "2026-05-21T14:45:28.8108927Z"
+                                                    "installed_at":  "2026-05-22T08:20:22.3718560Z"
                                                 },
                                                 {
                                                     "path":  "Embranch/Status-Embranch-Daemon.bat",
@@ -403,7 +403,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "92e38e80b477ea3684816edebf5fea1d5fb4f9295574bce7605a9d67733d962e",
                                                     "size_bytes":  5263,
-                                                    "installed_at":  "2026-05-21T14:45:28.8150694Z"
+                                                    "installed_at":  "2026-05-22T08:20:22.4174446Z"
                                                 },
                                                 {
                                                     "path":  "Embranch/Start-All-Embranch-Daemons.bat",
@@ -414,7 +414,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "2a3303b7c7cc24f42e1277d6196e77a1f3b28f2d01c5757f1dcc8d83663e4776",
                                                     "size_bytes":  3370,
-                                                    "installed_at":  "2026-05-21T14:45:28.8221009Z"
+                                                    "installed_at":  "2026-05-22T08:20:22.4489437Z"
                                                 },
                                                 {
                                                     "path":  "Embranch/Stop-All-Embranch-Daemons.bat",
@@ -425,7 +425,7 @@
                                                     "tied_to_kb":  null,
                                                     "checksum_sha256":  "fced90b0d05971353249fc1678ba0e8ffcfb1ddde705429cdd755b2c23b20e7e",
                                                     "size_bytes":  3540,
-                                                    "installed_at":  "2026-05-21T14:45:28.8254856Z"
+                                                    "installed_at":  "2026-05-22T08:20:22.4794917Z"
                                                 },
                                                 {
                                                     "path":  ".mcp.json",
@@ -434,9 +434,9 @@
                                                     "source_version":  "2.18.2",
                                                     "tied_to_daemon":  "2.18.2",
                                                     "tied_to_kb":  null,
-                                                    "checksum_sha256":  "b50f65b6c89d6d1bcdc1bcc0c4c03899c306f4730f2e8f884e8eb6b58493c818",
+                                                    "checksum_sha256":  "cc5567ffa24d7f383dc08a207b34b9a4420528ae55b6cdebe30093ebefdafda0",
                                                     "size_bytes":  541,
-                                                    "installed_at":  "2026-05-21T14:45:28.8709306Z",
+                                                    "installed_at":  "2026-05-22T08:20:22.5312872Z",
                                                     "merged_from_existing":  false
                                                 }
                                             ],
@@ -450,7 +450,7 @@
                                               ],
                               "backup_pointer":  {
                                                      "appdata_root":  "C:/Users/piete/AppData/Local/Embranch/harness-backups/4d242ce6ae8bb7d2/",
-                                                     "previous_install_backup":  "2026-05-21T14-45-28.414Z",
+                                                     "previous_install_backup":  "2026-05-22T08-20-21.503Z",
                                                      "backup_count":  1
                                                  },
                               "_legacy":  {
@@ -461,7 +461,7 @@
                                                                    "node_present":  true,
                                                                    "node_version":  "v24.13.1",
                                                                    "claude_cli_present":  true,
-                                                                   "claude_cli_version":  "2.1.146 (Claude Code)"
+                                                                   "claude_cli_version":  "2.1.147 (Claude Code)"
                                                                },
                                               "prereq_warnings":  [
 

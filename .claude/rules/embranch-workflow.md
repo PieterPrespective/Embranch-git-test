@@ -18,7 +18,7 @@ Diary operations write to PSDD (Dolt), not to git.
 | Operation | Method |
 |-----------|--------|
 | Read/search diary or knowledge | Direct `mcp__embranch__*` (with `knowledge_base="psdd"` or `"pskd"`) calls |
-| Log a diary entry during work | `diary_jot()` MCP tool (lightweight, buffered) |
+| Log a diary entry during work | `create_entry()` MCP tool (lightweight, buffered) |
 | Flush buffered entries to diary | `flush_session()` MCP tool (at session end) |
 | Plan or learning entry (needs structure) | Agent subagent — see AgentDocs/diary-writer-slim.md |
 | Extract decisions from git/files/dirs | `/extract-decisions` skill OR Agent subagent — see AgentDocs/decision-extractor-slim.md |
@@ -41,14 +41,14 @@ NEVER use `/devdiary`, `/knowledge`, or `/extract-decisions` skills during activ
   `mcp__embranch__QueryDocuments(collectionName="dev-diary", queryTextsJson="[\"topic\"]", nResults=5)`
 
 **Step 3** — Log plan via Agent subagent (FOREGROUND, see AgentDocs/diary-writer-slim.md)
-  Only for plan and learning entries. All other entries use diary_jot().
+  Only for plan and learning entries. All other entries use create_entry().
 
 ## Plan Mode
 Hooks on EnterPlanMode/ExitPlanMode enforce session recovery. See `.claude/hooks/embranch-plan-mode-guard.js`.
 
 ## During Work — Behavioral Triggers
 
-Use `diary_jot()` for all of these. Include the specific fact, not just the category.
+Use `create_entry()` for all of these. Include the specific fact, not just the category.
 
 | Trigger | entry_type | What to Capture |
 |---------|-----------|-----------------|
@@ -74,9 +74,9 @@ Skip examples for design decisions and process patterns.
 
 Do NOT log: file reads, git status, obvious internal choices, successful expected operations.
 
-### diary_jot Field Reference
+### create_entry Field Reference
 
-When calling `diary_jot()`, include these type-specific fields beyond the basics:
+When calling `create_entry()`, include these type-specific fields beyond the basics:
 
 | Entry Type | Extra Fields to Include | Example |
 |-----------|------------------------|---------|
@@ -105,7 +105,7 @@ coverage. Exact jot-to-jot links are not possible until after flush.
 ## Session End — Completion Gate (MANDATORY)
 
 **Step 4** — Log final work summary (FOREGROUND):
-  Use `diary_jot()` with `entry_type: work`. Focus on verification evidence, not
+  Use `create_entry()` with `entry_type: work`. Focus on verification evidence, not
   implementation narrative. Max 250 words for completion-gate work entries.
   If verification is extensive (>3 test results), split into:
   - `work` entry: what was implemented, key files, summary metrics
@@ -167,7 +167,7 @@ and timestamps. No manual registry management is needed.
 
 ### Pre-Edit Enforcement
 The `require-diary-entry` hook blocks `Edit`/`Write` unless a recent diary entry or jot
-exists (within 20 minutes). If blocked: use `diary_jot()` to log what you're about to do.
+exists (within 20 minutes). If blocked: use `create_entry()` to log what you're about to do.
 
 ### Post-Error / Post-Commit
 Non-blocking advisories suggesting observation/outcome entries. Not enforced.

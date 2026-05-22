@@ -1,15 +1,32 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-05-21T14:49:41.350512Z",
+  "updated_at": "2026-05-22T08:32:49.413173Z",
   "servers": {
     "psdd": {
       "knowledge_bases": {
         "_default": {
           "backend_type": "dolt",
+          "remote_url": "https://doltremoteapi.dolthub.com/pieter-prespective/embr-git-test-psdd",
+          "remote_type": "dolthub",
           "branch": "main",
-          "commit": "1k37hgk332ruf56s65s1qvh4qs0kudt9",
+          "commit": "01b32oiumk50n1rm0qu1mdb23bfc28qr",
           "collections": [],
-          "last_synced_at": "2026-05-21T14:49:41.350454Z",
+          "last_synced_at": "2026-05-22T08:32:15.103349Z",
+          "remote_empty": false,
+          "backend_params": {}
+        }
+      }
+    },
+    "pskd": {
+      "knowledge_bases": {
+        "_default": {
+          "backend_type": "dolt",
+          "remote_url": "https://doltremoteapi.dolthub.com/pieter-prespective/embr-git-test-pskd",
+          "remote_type": "dolthub",
+          "branch": "main",
+          "commit": "20hsch17m9rckpqo9tc036mgq8moi0vh",
+          "collections": [],
+          "last_synced_at": "2026-05-22T08:32:49.413156Z",
           "remote_empty": false,
           "backend_params": {}
         }

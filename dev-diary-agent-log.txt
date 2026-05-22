@@ -40,3 +40,45 @@
 [2026-05-21 09:41:14] VERSION system: dolt_push
     Input: {}
     Session: 029a60b2
+[2026-05-21 14:48:58] READ system: list_collections
+    Input: {}
+    Session: 49a67495
+[2026-05-21 14:49:07] READ registry: get_documents
+    Input: {"collection_name":"registry"}
+    Session: 49a67495
+[2026-05-21 14:49:24] CREATE dev-diary: add_documents
+    Input: {"collection_name":"dev-diary","documents_json":"[{\"id\": \"TEST-A-02-work-20260521-164800-a3c1f7\", \"content\": \"Harness update to v2.26.4\\n\\nThe Embranch harness version pin has been updated to...
+    Session: 49a67495
+[2026-05-21 14:49:29] CREATE registry: add_documents
+    Input: {"collection_name":"registry","documents_json":"[{\"id\": \"registry-TEST-A-02\", \"content\": \"Registry entry for TEST-A-02: Harness version pin updated to v2.26.4\", \"metadata\": {\"issue_id\": \"...
+    Session: 49a67495
+[2026-05-21 14:49:41] VERSION system: dolt_commit
+    Input: {"message":"TEST-A-02: Harness version pin updated to v2.26.4"}
+    Session: 49a67495
+[2026-05-21 19:28:58] OTHER system: server_health
+    Input: {"knowledge_base":"psdd"}
+    Session: 9e3f1356
+[2026-05-21 19:30:20] READ system: list_collections
+    Input: {"knowledge_base":"psdd"}
+    Session: 9e3f1356
+[2026-05-22 08:29:08] OTHER system: server_health
+    Input: {}
+    Session: 01fe1e80
+[2026-05-22 08:29:46] READ dev-diary: get_documents
+    Input: {"collection_name":"dev-diary","fields_json":"[\"id\", \"metadata.created_at\", \"metadata.entry_type\", \"metadata.issue_id\", \"metadata.title\", \"content\"]","limit":100}
+    Session: 01fe1e80
+[2026-05-22 08:31:01] CREATE dev-diary: add_documents
+    Input: {"collection_name":"dev-diary","documents_json":"[{\"id\": \"TEST-A-02-work-20260522-120000-b7e2f4\", \"content\": \"Pinned Embranch daemon to v2.26.6\\n\\nUpdated the Embranch daemon (MCP server) ver...
+    Session: 01fe1e80
+[2026-05-22 08:31:02] READ registry: get_documents
+    Input: {"collection_name":"registry","where_json":"{\"issue_id\": \"TEST-A-02\"}"}
+    Session: 01fe1e80
+[2026-05-22 08:31:07] UPDATE registry: update_documents
+    Input: {"collection_name":"registry","documents_json":"[{\"id\": \"registry-TEST-A-02\", \"content\": \"Registry entry for TEST-A-02: Embranch harness and daemon version updates\", \"metadata\": {\"source_pr...
+    Session: 01fe1e80
+[2026-05-22 08:32:02] VERSION system: dolt_commit
+    Input: {"message":"TEST-A-02: Embranch daemon pinned to v2.26.6"}
+    Session: 01fe1e80
+[2026-05-22 08:32:15] VERSION system: dolt_push
+    Input: {}
+    Session: 01fe1e80
